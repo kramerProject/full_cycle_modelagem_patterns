@@ -12,5 +12,8 @@
   "scripts": {
     "test": "npm run tsc -- --noEmit && jest",
     "tsc": "tsc"
+  },
+  "dependencies": {
+    "sequelize-typescript": "^2.1.3"
   }
 }
