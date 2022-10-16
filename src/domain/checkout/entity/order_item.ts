@@ -36,6 +36,10 @@ export default class OrderItem {
     }
   
     get price(): number {
+      return this._price
+    }
+  
+    get partialPrice(): number {
       return this._price * this._quantity;
     }
   }
